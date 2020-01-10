@@ -123,6 +123,7 @@ The following example installs the 64-bit agent, identified by the `URI` value. 
 
 - Windows 64-bit agent - https://go.microsoft.com/fwlink/?LinkId=828603
 - Windows 32-bit agent - https://go.microsoft.com/fwlink/?LinkId=828604
+32-bit agent cannot be installed on Windows 32-bit virtual machines that run on Azure. In order to monitor virtual machines deployed on Azure, you will need to have Azure Virtual Machine agent. Azure Virtual Machine agent requires 64-bit version. Therefore, if you have recently migrated Windows virtual machines 32-bit version, you will need to look at different monitoring solution, such as SCOM.
 
 
 >[!NOTE]
